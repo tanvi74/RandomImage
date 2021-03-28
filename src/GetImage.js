@@ -31,7 +31,7 @@ export default class GetImage extends Component {
         this.setState({
             id: id
         })
-        const url =  `${window.apiHost}/api/image/get-info`;
+        const url =  `${window.apiHost}/api/random_image/image/get-info`;
         const data = {
             id: id
         }

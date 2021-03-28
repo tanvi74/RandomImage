@@ -9,7 +9,7 @@ export default class AllImages extends Component {
         this.getInfo();
     }
     getInfo = async() =>{
-        const url =  `${window.apiHost}/api/image/all-images`;
+        const url =  `${window.apiHost}/api/random_image/image/all-images`;
         const apiKey = "asdfghjkl1234567890";
         const data = {apiKey}
         const resp = await axios.post(url,data);

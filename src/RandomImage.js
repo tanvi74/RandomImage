@@ -28,7 +28,7 @@ export default class RandomImage extends Component {
             imageURL: image.download_url
         })
         console.log(this.state.imageURL);
-        const url =  `${window.apiHost}/api/image/store`;
+        const url =  `${window.apiHost}/api/random_image/image/store`;
         const data = {
             id: this.props.id,
             imageURL: this.state.imageURL
